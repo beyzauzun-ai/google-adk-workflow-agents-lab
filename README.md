@@ -1,6 +1,6 @@
 # Google ADK Workflow Agents Lab
 
-Multi-agent workflow system built with Google ADK using SequentialAgent, LoopAgent, and ParallelAgent.
+A multi-agent workflow system built with Google ADK using SequentialAgent, LoopAgent, and ParallelAgent to generate movie pitch documents collaboratively.
 
 ## 📸 Workflow Demo
 
@@ -35,11 +35,14 @@ The workflow includes:
 - File Writer Agent
 - Box Office Researcher Agent
 
-### Agent Architectures
-- SequentialAgent
-- LoopAgent
-- ParallelAgent
-
+## 🧠 Workflow Architecture
+```bash
+Researcher → Screenwriter → Critic Loop  
+↓  
+Preproduction Team (Parallel Analysis)  
+↓  
+File Writer
+```
 ## ⚙️ Technologies Used
 
 - Python
@@ -56,12 +59,15 @@ workflow_agents/
 parent_and_subagents/
 movie_pitches/
 ```
-## 🎬 Features
-Generates movie pitch ideas
-Performs iterative agent collaboration
-Uses parallel analysis workflows
-Writes generated outputs into files
-Demonstrates multi-agent orchestration patterns
+## 🚀 Features
+
+- SequentialAgent workflow orchestration
+- LoopAgent for iterative refinement
+- ParallelAgent for parallel analysis
+- Wikipedia research integration
+- Automated movie pitch generation
+- File writing and state management
+- Multi-agent collaboration with Google ADK
 
 ## ☁️ Built With
 Google Cloud
