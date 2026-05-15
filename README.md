@@ -66,3 +66,7 @@ Iterative agent loops
 Parallel task execution
 Agent state management
 Tool-based AI agents
+
+### 👩‍💻 Author
+
+Beyza UZUN
