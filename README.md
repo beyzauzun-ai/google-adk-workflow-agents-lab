@@ -5,7 +5,7 @@ Multi-agent workflow system built with Google ADK using SequentialAgent, LoopAge
 ## 📸 Workflow Demo
 
 <p align="center">
-  <img src="demo.png" width="900"/>
+  <img src="Demo.png" width="900"/>
 </p>
 
 ## 📸 Final Output Generation
